@@ -49,7 +49,7 @@ def play():
             hangman(secret_word)
             break
         elif users=="n":
-            print("thank you for playing.....")
+            print("thank you for playing  user .....")
             break
 def hangman(secret_word):
     print("Welcome to the game, Hangman!")
