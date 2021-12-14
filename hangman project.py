@@ -103,7 +103,7 @@ def hangman(secret_word):
             print("remaing_lives are:",remain_lives)
             i=i+1
         if remain_lives<=0:
-            print("you ran out of the process,ur the secret word was",secret_word)
+            print("you ran out of the process,the secret word was",secret_word)
             play()
             break
 
